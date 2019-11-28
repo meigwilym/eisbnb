@@ -1,0 +1,95 @@
+# EisBnB.cymru
+
+Mobile first!
+
+## Homepage
+
+* Welcome message
+* Sign up CTA
+* List featured properties
+* View all properties CTA
+
+## Sign Up Process
+
+### Part 1
+
+Add the following
+
+Beth, Ble, Faint?
+
+* Type: cottage, room, caravan etc.
+* Short Description (on summary listing)
+* Description (on long listing)
+* Location:
+  * address
+  * postcode
+* Price per night
+* night availability Thu - Sun
+
+[keep an advert_level field, and track it for charging]
+
+Pay £10 or add photos for £20?
+
+### Part 2
+
+* Add Photos
+
+add more adverts?
+
+Pay £20 or Featured for £40?
+
+### Payment Page
+
+* Name
+* Email
+* Stripe Payment
+
+## Thank You Page
+
+* Confirm payment
+* Confirm listing
+
+View Property CTA
+
+## List Properties
+
+* List of all properties
+* Featured at the top
+* Vasic at the bottom
+* View Property CTA
+
+## View Property
+
+* Show all details
+* Images
+* Contact form -> email to user
+
+## Policies
+
+* ToS
+* Cookies
+* Privacy
+
+ = = =
+
+Map page with all properties. Image on popup for class 2. Different colour pin for class 3.
+
+Distances
+    Manually calculated distance to Maes, Maes B, Maes Carafanau, Pwllheli, Nefyn
+    and anywhere else of note.
+    use google maps
+
+Amenities
+    Trydan
+    Gwres
+    TV
+    DVD
+    Wifi
+    Bath/Cawod
+    Dillad Gwely
+    Parcio
+    Cegin
+    Oergell
+    Rhewgell
+    Meicrodon
+    Gardd
