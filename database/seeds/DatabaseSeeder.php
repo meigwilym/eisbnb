@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
             UsersTableSeeder::class,
             AdvertLevelSeeder::class,
             ListingTypeSeeder::class,
-            ]);
+            PageSeeder::class,
+        ]);
     }
 }

@@ -18,10 +18,14 @@ class CreateListingsTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('listing_type_id');
             $table->unsignedBigInteger('advert_level_id');
+
+            $table->string('title');
+            $table->string('slug')->index();
             $table->text('short_description');
             $table->text('long_description');
+            $table->string('location');
             $table->text('address');
-            $table->text('postcode');
+            $table->string('postcode');
             $table->string('lat')->nullable();
             $table->string('lon')->nullable();
             $table->integer('cost_per_night')->default(0);

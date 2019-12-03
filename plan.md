@@ -74,6 +74,9 @@ View Property CTA
 
 Map page with all properties. Image on popup for class 2. Different colour pin for class 3.
 
+Pages
+    Admin section to have markdown editor. Converted to HTML on save and saved to html field.
+
 Distances
     Manually calculated distance to Maes, Maes B, Maes Carafanau, Pwllheli, Nefyn
     and anywhere else of note.

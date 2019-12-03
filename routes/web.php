@@ -11,9 +11,9 @@ Route::auth();
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomepageController@index']);
 
-Route::get('llefydd-aros', ['as' => 'listings', 'uses' => 'ListingController@index']);
-Route::get('llefydd-aros/{listing}', ['as' => 'listings.show', 'uses' => 'ListingController@show']);
-Route::post('llefydd-aros/{listing}', ['uses' => 'ListingController@saveBooking']);
+Route::get('llety', ['as' => 'listings', 'uses' => 'ListingController@index']);
+Route::get('llety/{listing}', ['as' => 'listings.show', 'uses' => 'ListingController@show']);
+Route::post('llety/{listing}', ['uses' => 'ListingController@saveBooking']);
 
 Route::get('cais', ['as' => 'listings.create', 'uses' => 'CreateListingController@details']);
 Route::post('cais', ['uses' => 'CreateListingController@saveDetails']);

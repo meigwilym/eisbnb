@@ -19,6 +19,12 @@ class PageSeeder extends Seeder
             'html' => '<p>Default HTML</p>',
         ]);
         Page::create([
+            'slug' => 'prisiau',
+            'title' => 'Prisiau',
+            'markdown' => 'Default markdown',
+            'html' => '<p>Default HTML</p>',
+        ]);
+        Page::create([
             'slug' => 'polisi-preifatrwydd',
             'title' => 'Polisi Preifatrwydd',
             'markdown' => 'Default markdown',

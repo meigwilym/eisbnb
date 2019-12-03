@@ -17,7 +17,7 @@ class ListingController extends Controller
      */
     public function index()
     {
-        $listings = Listing::all();
+        $listings = Listing::orderBy('advert_level_id', 'DESC')->get();
 
         return Inertia::render('Listings/Index', compact('listings'));
     }

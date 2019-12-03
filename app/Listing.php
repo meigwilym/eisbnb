@@ -18,6 +18,10 @@ class Listing extends Model
         'distances' => 'array',
     ];
 
+    protected $appends = ['is_featured'];
+
+    protected $with = ['listingType', 'advertLevel', 'images'];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
@@ -36,5 +40,10 @@ class Listing extends Model
     public function listingType(): BelongsTo
     {
         return $this->belongsTo(ListingType::class);
+    }
+
+    public function getIsFeaturedAttribute()
+    {
+        return $this->advertLevel->id === 3;
     }
 }
