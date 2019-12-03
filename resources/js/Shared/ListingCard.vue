@@ -6,9 +6,9 @@
                     <i class="fa fa-star fa-2x has-text-warning"></i>
                 </span>
                 <div class="media">
-                    <div class="media-left">
+                    <div v-if="listing.images.length > 0" class="media-left">
                         <figure class="image is-64x64">
-                            <img src="https://picsum.photos/64?grayscale&blur=2" alt="Placeholder image">
+                            <img :src="listing.images[0].filepath" alt="Placeholder image">
                         </figure>
                     </div>
                     <div class="media-content">

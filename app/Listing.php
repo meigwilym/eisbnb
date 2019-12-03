@@ -20,7 +20,14 @@ class Listing extends Model
 
     protected $appends = ['is_featured'];
 
-    protected $with = ['listingType', 'advertLevel', 'images'];
+    protected $hidden = ['user_id', 'listing_type_id', 'advert_level_id'];
+
+    protected $with = ['images'];
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
     public function user(): BelongsTo
     {
