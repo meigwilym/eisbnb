@@ -1,6 +1,5 @@
 <template lang="pug">
-    <div class="">
-        <Navbar />
+    <div>
         <section class="hero is-primary">
             <div class="hero-body">
                 <div class="container has-text-centered">
@@ -18,16 +17,17 @@
                 </div>
             </section>
         </div>
-        <Footer />
     </div>
 </template>
 
 <script>
+import Layout from '@/Shared/Layout';
 import ListingCard from '@/Shared/ListingCard';
 import Navbar from '@/Shared/Navbar';
 import Footer from '@/Shared/Footer';
 
 export default {
+    layout: (h, page) => h(Layout, [page]),
     components: {
         Navbar,
         Footer,

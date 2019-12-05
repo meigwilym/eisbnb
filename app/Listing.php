@@ -22,7 +22,7 @@ class Listing extends Model
 
     protected $hidden = ['user_id', 'listing_type_id', 'advert_level_id'];
 
-    protected $with = ['images'];
+    protected $with = ['listingType', 'images'];
 
     public function getRouteKeyName()
     {

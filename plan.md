@@ -83,6 +83,11 @@ Distances
     use google maps
 
 Amenities
+
+JSON, offered as a select box adding tags kind of thing. or pick from provided list. or both.
+
+https://wikiki.github.io/form/tagsinput/
+
     Trydan
     Gwres
     TV

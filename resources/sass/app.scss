@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 // Import only what you need from Bulma
-@import '../../node_modules/bulma/bulma.sass';
+@import 'bulma';
 
-@import '../../node_modules/font-awesome/css/font-awesome.min.css';
+@import 'font-awesome';
 
 // helper classes
 // https://github.com/jgthms/bulma/issues/451#issuecomment-331758839

@@ -8,9 +8,16 @@
                 <div class="media">
                     <div v-if="listing.images.length > 0" class="media-left">
                         <figure class="image is-64x64">
-                            <img :src="listing.images[0].filepath" alt="Placeholder image">
+                            <img :src="listing.images[0].filepath" :alt="listing.title">
                         </figure>
                     </div>
+                    <!--
+                    <div v-else class="media-left">
+                        <figure class="image is-64x64">
+                            <img :src="listing.listing_type.icon" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    -->
                     <div class="media-content">
                         <p class="title is-4">{{ listing.title }}</p>
                         <p class="subtitle is-6">{{ listing.listing_type.name }} yn {{ listing.location }}</p>
