@@ -1,9 +1,14 @@
 import { InertiaApp } from '@inertiajs/inertia-vue';
 import Vue from 'vue';
+import Buefy from 'buefy';
+import 'buefy/dist/buefy.css';
 import '../sass/app.scss';
 
 Vue.mixin({ methods: { route: window.route } });
 Vue.use(InertiaApp);
+Vue.use(Buefy, {
+    defaultIconPack: 'fas',
+});
 
 const app = document.getElementById('app');
 

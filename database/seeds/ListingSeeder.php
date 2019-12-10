@@ -27,7 +27,7 @@ class ListingSeeder extends Seeder
             'lon' => '',
             'cost_per_night' => '10',
             'beds' => '4',
-            'amenities' => '',
+            'amenities' => ['Wifi', 'Cawod', 'Trydan'],
             'availability' => '',
             'distances' => '',
         ]);
@@ -46,7 +46,7 @@ class ListingSeeder extends Seeder
             'lon' => '',
             'cost_per_night' => 40,
             'beds' => 3,
-            'amenities' => '',
+            'amenities' => ['Wifi', 'Cawod', 'Bathrwm', 'Parcio', 'Trydan'],
             'availability' => '',
             'distances' => '',
         ]);
@@ -65,7 +65,7 @@ class ListingSeeder extends Seeder
             'lon' => '',
             'cost_per_night' => 59,
             'beds' => 6,
-            'amenities' => '',
+            'amenities' => ['Bathrwm', 'Parcio', 'Wifi', 'Cawod', 'Trydan'],
             'availability' => '',
             'distances' => '',
         ]);
@@ -84,7 +84,7 @@ class ListingSeeder extends Seeder
             'lon' => '',
             'cost_per_night' => 95,
             'beds' => 6,
-            'amenities' => '',
+            'amenities' => ['Wifi', 'Cawod', 'Teledu', 'Bathrwm', 'Parcio', 'Cegin'],
             'availability' => '',
             'distances' => '',
         ]);

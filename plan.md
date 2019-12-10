@@ -101,3 +101,11 @@ https://wikiki.github.io/form/tagsinput/
     Rhewgell
     Meicrodon
     Gardd
+
+Types
+    Ty                          fa-home
+    Ystafell mewn Ty            fa-bed
+    Carafan Statig              fa-
+    Carafan Symudol neu Camper  fa-shuttle-van
+    Caban                       fa-igloo
+    Pabell                      fa-campground

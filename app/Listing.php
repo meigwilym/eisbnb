@@ -13,9 +13,9 @@ class Listing extends Model
     protected $casts = [
         'cost_per_night' => 'integer',
         'beds' => 'integer',
-        'amenities' => 'array',
-        'availability' => 'array',
-        'distances' => 'array',
+        'amenities' => 'json',
+        'availability' => 'json',
+        'distances' => 'json',
     ];
 
     protected $appends = ['is_featured'];

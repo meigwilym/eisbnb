@@ -20,11 +20,10 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.11.2",
         "@inertiajs/inertia": "^0.1.7",
         "@inertiajs/inertia-vue": "^0.1.2",
         "buefy": "^0.8.8",
-        "bulma": "^0.8.0",
-        "font-awesome": "^4.7.0",
         "vue": "^2.6.10"
     }
 }
