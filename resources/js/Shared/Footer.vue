@@ -12,6 +12,7 @@
                             <div class="menu">
                                 <p class="menu-label">Y Gwasanaeth</p>
                                 <ul class="menu-list">
+                                    <li><inertia-link :href="route('listings.create')">Hysbysebu Llety</inertia-link></li>
                                     <li><inertia-link :href="route('page.show', 'amdan')">Amdan</inertia-link></li>
                                     <li><inertia-link :href="route('page.show', 'prisiau')">Prisiau</inertia-link></li>
                                 </ul>

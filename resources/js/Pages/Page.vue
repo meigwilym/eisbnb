@@ -1,6 +1,6 @@
 <template lang="pug">
     <div>
-        <Navbar />
+        <navbar />
 
         <section class="hero is-primary">
             <div class="hero-body">
@@ -14,7 +14,7 @@
             <div class="content" v-html="page.html" />
         </div>
 
-        <Footer />
+        <footer />
     </div>
 </template>
 

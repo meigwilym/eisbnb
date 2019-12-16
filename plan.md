@@ -11,6 +11,10 @@ Mobile first!
 
 ## Sign Up Process
 
+Instructions: you will need: price per night, images, short/long description, etc. 
+
+How to write a good description https://getpaidforyourpad.com/blog/airbnb-listing-description-2/
+
 ### Part 1
 
 Add the following
@@ -105,7 +109,12 @@ https://wikiki.github.io/form/tagsinput/
 Types
     Ty                          fa-home
     Ystafell mewn Ty            fa-bed
-    Carafan Statig              fa-
+    Carafan Statig              fa-bus
     Carafan Symudol neu Camper  fa-shuttle-van
-    Caban                       fa-igloo
+    Caban                       fa-store 
     Pabell                      fa-campground
+
+icons handi
+
+    fa-credit-card
+    fa-moon (ar gyfer nosweithiau)
