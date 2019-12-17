@@ -16,6 +16,8 @@ class Listing extends Model
         'amenities' => 'json',
         'availability' => 'json',
         'distances' => 'json',
+        'lat' => 'float',
+        'lon' => 'float',
     ];
 
     protected $appends = ['is_featured'];

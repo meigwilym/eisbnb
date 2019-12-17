@@ -44,10 +44,13 @@
 
                         <h2 class="title is-spaced is-size-4-mobile"><i class="fas fa-bed"></i> &nbsp;Argaeledd</h2>
                         <div class="tags">
-                        <span v-for="night in listing.availability" :class="`tag ${night.argael ? 'is-success' : 'is-danger'}`">
-                            {{ night.noson }}
-                        </span>
+                            <span v-for="night in listing.availability" :class="`tag ${night.argael ? 'is-success' : 'is-danger'}`">
+                                {{ night.noson }}
+                            </span>
                         </div>
+
+                        <h2 class="title is-spaced is-size-4-mobile"><i class="fas fa-map-marker"></i> &nbsp;Lleoliad</h2>
+                        <Map :lat="listing.lat" :lon="listing.lon" />
                     </div>
                 </div>
             </section>
@@ -69,12 +72,14 @@
 import { Carousel } from 'buefy';
 import Layout from '@/Shared/Layout';
 import Hero from '@/Shared/Hero';
+import Map from '@/Shared/Map';
 
 export default {
     layout: (h, page) => h(Layout, [page]),
     components: {
         Carousel,
         Hero,
+        Map,
     },
     props: {
         listing: Object

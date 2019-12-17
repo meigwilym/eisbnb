@@ -24,6 +24,8 @@
         "@inertiajs/inertia": "^0.1.7",
         "@inertiajs/inertia-vue": "^0.1.2",
         "buefy": "^0.8.8",
-        "vue": "^2.6.10"
+        "leaflet": "^1.6.0",
+        "vue": "^2.6.10",
+        "vue2-leaflet": "^2.3.2"
     }
 }
